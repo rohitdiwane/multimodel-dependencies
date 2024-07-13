@@ -31,7 +31,7 @@ audio = audio.fade_in(2000).fade_out(3000)
 audio.export("output.mp3", format="mp3")
 ```
 
-# 2. MoviePy
+## 2. MoviePy
 
 Overview
 MoviePy is a versatile library for video editing that can be used to read, write, edit, and manipulate video files. It is built on top of the powerful FFmpeg library and provides a high-level interface for video editing tasks.
@@ -65,7 +65,7 @@ subclip = subclip.set_duration(10).fx(vfx.text_overlay, "Hello, World!")
 subclip.write_videofile("output.mp4")
 ```
 
-3. Pytube
+## 3. Pytube
 
 Overview
 Pytube is a lightweight, Pythonic library for downloading YouTube videos. It provides an easy-to-use interface for downloading videos, including features like downloading audio tracks and handling different video resolutions.
@@ -97,7 +97,7 @@ stream = yt.streams.get_highest_resolution()
 stream.download(output_path=".", filename="video.mp4")
 ```
 
-# 4. Pillow (PIL Fork)
+## 4. Pillow (PIL Fork)
 
 Overview
 Pillow is a fork of the original Python Imaging Library (PIL). It adds support for opening, manipulating, and saving many different image file formats. Pillow is widely used for tasks like image resizing, cropping, filtering, and more.
