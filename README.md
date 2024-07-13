@@ -1,4 +1,4 @@
-# some multimodel-dependencies for RAG
+# Some multimodel-dependencies for RAG system
 
 
 ## 1. AudioSegment
