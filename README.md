@@ -1,7 +1,7 @@
 # multimodel-dependencies
 
 
-1. AudioSegment
+# 1. AudioSegment
 
 Overview
 AudioSegment is a module from the pydub library used for simple audio manipulation. It supports a variety of audio formats and provides functionality for slicing, concatenating, applying effects, and more.
