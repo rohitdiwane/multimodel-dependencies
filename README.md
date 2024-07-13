@@ -20,14 +20,14 @@ install:
 Example:
 ```
 from pydub import AudioSegment
-```
-### Load an audio file
+
+# Load an audio file
 audio = AudioSegment.from_file("example.mp3")
 
-### Apply effects
+# Apply effects
 audio = audio.fade_in(2000).fade_out(3000)
 
-### Export the modified audio
+# Export the modified audio
 audio.export("output.mp3", format="mp3")
+```
 
-'''
