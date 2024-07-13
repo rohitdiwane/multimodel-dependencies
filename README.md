@@ -15,7 +15,6 @@ Features:
 Installation: 
 ```
 !pip install pydub
-
 ```
 Example:
 ```
@@ -78,13 +77,11 @@ Features
 
 Installation:
 ```
-
 !pip install pytube
 ```
 
 Example:
 ```
-
 from pytube import YouTube
 
 # Create a YouTube object with the video URL
@@ -132,7 +129,6 @@ image.save("output.jpg")
 
 # Save the image in a different format
 image.save("output.png", format="PNG")
-
 ```
 
 
