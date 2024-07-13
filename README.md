@@ -1,4 +1,4 @@
-# multimodel-dependencies
+# some multimodel-dependencies for RAG
 
 
 # 1. AudioSegment
