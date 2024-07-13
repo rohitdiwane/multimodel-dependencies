@@ -13,14 +13,14 @@ Features:
 - Manipulate audio by slicing, concatenating, and overlaying tracks
 
 install: 
-'''
+```
 !pip install pydub
 
-'''
+```
 Example:
-'''
+```
 from pydub import AudioSegment
-'''
+```
 ### Load an audio file
 audio = AudioSegment.from_file("example.mp3")
 
